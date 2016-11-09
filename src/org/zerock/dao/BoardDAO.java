@@ -1,5 +1,7 @@
 package org.zerock.dao;
 
+import java.util.List;
+
 import org.zerock.domain.BoardVO;
 
 public interface BoardDAO {
@@ -11,5 +13,7 @@ public interface BoardDAO {
 	public void update(BoardVO vo) throws Exception;
 
 	public void delete(Integer bno) throws Exception;
+	
+	public List<BoardVO> listPage(int page) throws Exception;
 
 }

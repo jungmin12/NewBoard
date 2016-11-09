@@ -15,6 +15,8 @@ public class BoardController extends AbstractController {
 
 	@RequestMapping("/list")
 	public void list(HttpServletRequest request, HttpServletResponse responsee) {
+		
+		request.setAttribute("page", 1);
 
 	}
 
