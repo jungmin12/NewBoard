@@ -24,7 +24,6 @@ public class MySqlTest {
 		dao.INSTANCE.delete(9);
 		
 	
-	
 	}
 
 	@Test
